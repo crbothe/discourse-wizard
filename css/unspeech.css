@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #303030;
+  color: #4f4747;
 }
 
 @media (min-width: 992px) {
@@ -87,7 +87,7 @@ section {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid rgba(58, 19, 19, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -136,7 +136,7 @@ section.unspeech-section .unspeech-item .unspeech-date {
 
 .bg-primary {
 /*  background-color: #BD5D38 !important;*/
-    background-color: #236fd3 !important;
+    background-color: #bee5d1 !important;
 }
 
 .text-primary {
