@@ -92,19 +92,19 @@ Discourse-Wizard is to demonstrate the context in spoken language which comes fr
           <h4>Same utterance can be used in different contexts</h4>
           <object data="img/example.png"  width="60%" align="left" border="0">
   not supported in your browser
-</object>
+			 </object>
           <p class="mb-5">
-As you can see in the small piece of conversation example, Utt2 and Utt4 are very same (in this case they are same “Yeah”), however, the dialogue acts are very different. As they come from their context utterances Utt1 and Utt3 respectively. If it appears after a ‘Yes-No Question’ dialogue act it is more likely to have ‘Yes-Answer’ rather than ‘Backchannel’ or any other dialogue act. The presented example is from the Switchboard Dialogue Act (SwDA) Corpus, which is annotated with 42 such dialogue acts.
-</p>
+          As you can see in the small piece of conversation example, Utt2 and Utt4 are very same (in this case they are same “Yeah”), however, the dialogue acts are very different. As they come from their context utterances Utt1 and Utt3 respectively. If it appears after a ‘Yes-No Question’ dialogue act it is more likely to have ‘Yes-Answer’ rather than ‘Backchannel’ or any other dialogue act. The presented example is from the Switchboard Dialogue Act (SwDA) Corpus, which is annotated with 42 such dialogue acts.
+          </p>
 
-<h3>Features:</h3>
-<ul>
-<li>Discourse/conversational analysis</li>
-<li>Dialogue act recognition at utterance level</li>
-<li>Context-based dialogue act recognition, preceding utterances as a context</li>
-</ul>
+			<h3>Features:</h3>
+			<ul>
+			<li>Discourse/conversational analysis</li>
+			<li>Dialogue act recognition at utterance level</li>
+			<li>Context-based dialogue act recognition, preceding utterances as a context</li>
+			</ul>
 
-<!--h3>How it works:</h3-->
+			<!--h3>How it works:</h3-->
 
         </div>
 </section>
@@ -142,7 +142,7 @@ As you can see in the small piece of conversation example, Utt2 and Utt4 are ver
           </ul>
 
         </div>
-    </section>
+</section>
 
 
 <section class="unspeech-section p-3 p-lg-5 d-flex d-column" id="models">
@@ -168,7 +168,7 @@ The context-based approach, which can take the preceding utterance (or utterance
           <h2 class="mb-5">Code</h2>
 	Code will be available soon, stay tuned...
 
-      </section>
+</section>
 
 
 <section class="unspeech-section p-3 p-lg-5 d-flex flex-column" id="refs">
@@ -186,7 +186,7 @@ The context-based approach, which can take the preceding utterance (or utterance
           </p>
         </div>
 
-      </section>
+</section>
 
 
 <section class="unspeech-section p-3 p-lg-5 d-flex flex-column" id="footprint">
@@ -200,7 +200,7 @@ The context-based approach, which can take the preceding utterance (or utterance
 	</p>
         </div>
 
-      </section>
+</section>
 
 
 <section class="unspeech-section p-3 p-lg-5 d-flex flex-column" id="ack">
@@ -220,28 +220,27 @@ The context-based approach, which can take the preceding utterance (or utterance
           <br/>
           The initial demonstration release is available at SECURE Website as <a target="_blank" href="https://secure-robots.eu/fellows/bothe/discourse-wizard-demo/">Discourse-Wizard Demo<a>, which is simply a replica of the <a class="js-scroll-trigger" href="#demo">Demonstration<a> page here.
         </div>
-    </section>
+</section>
 
 
 </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script>
-function changeColor(id)
-{
-  document.getElementById(id).style.color = "#ff0000"; // forecolor
-  document.getElementById(id).style.backgroundColor = "#ff0000"; // backcolor
-}
-</script>
+   <!-- Bootstrap core JavaScript -->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script>
+	function changeColor(id)
+	{
+	  document.getElementById(id).style.color = "#ff0000"; // forecolor
+	  document.getElementById(id).style.backgroundColor = "#ff0000"; // backcolor
+	}
+	</script>
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script>
-function myFunction() {
-    document.getElementById("changeColor").style.color = "red";
-}
-</script>
+	<script>
+	function myFunction() {
+	    document.getElementById("changeColor").style.color = "red";
+	}
+	</script>
    <!-- Custom scripts for this template -->
    <script src="js/unspeech.min.js"></script>
 
