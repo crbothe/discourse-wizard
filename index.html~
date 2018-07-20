@@ -116,9 +116,9 @@ Discourse-Wizard is to demonstrate the context in spoken language which comes fr
           
           <h3> Discourse-Wizard:-
 	Dialogue Act Recognition Demo <h3>
-	<iframe src="https://b6da9a2e.eu.ngrok.io"      
+	<iframe src="https://2fc29792.eu.ngrok.io"      
 	     width="100%" height="850" frameborder="0" allowfullscreen sandbox="allow-forms allow-scripts">  
-	   <p> <a href="https://b6da9a2e.eu.ngrok.io">   
+	   <p> <a href="https://2fc29792.eu.ngrok.io">   
 	     Fallback link for browsers that don't support iframes. Click here. </a> </p>
 	</iframe>
         </div>
@@ -250,7 +250,7 @@ The context-based approach, which can take the preceding utterance (or utterance
 	links=document.getElementsByTagName("li") ;  
 	for (var i = 0 ; i < links.length ; i ++)  
 	links.item(i).style.color = 'black' ;  
-	element.style.color='orange' ;  
+	element.style.color='green' ;  
 	}  
 	</script>
 
